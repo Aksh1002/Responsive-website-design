@@ -47,9 +47,14 @@ header a{
     font-style: 16px
 }
 
+header .container .branding .highlight a{
+    color: #e8491d;
+}
+
 header ul{
     margin: 0;
     padding: 0;
+   
  }
 
  header li{
@@ -72,9 +77,8 @@ header nav{
     margin-top: 10px;
 }
 
-header .highlight,header .current a {
+header .highlight a,header .current a {
     color:#e8491d;
-
     font-weight: bold;
 
 }
@@ -82,6 +86,7 @@ header .highlight,header .current a {
 header a:hover{
     color:#cccccc;
     font-weight: bold;
+
 }
 
 /* showcase */
@@ -151,8 +156,8 @@ aside#sidebar{
 
 }
 aside#sidebar .quote,aside#sidebar .textarea{
-    width=90%
-    padding:5%:
+    width:90%;
+    padding:5%;
 
 }
 
@@ -201,14 +206,9 @@ footer{
         margin-top: 40px;
     }
     #newsletter button,#newsletter form input[type="email"]{
-        width=100%
+        width:100%
 
     }
     
 }
-
-
-
-
-
 
